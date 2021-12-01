@@ -1,0 +1,253 @@
+.work-consultation {
+  display: none;
+}
+
+.work-consultation-active {
+  display: block;
+}
+
+.work-h2 {
+  margin-bottom: 51px;
+}
+
+.tabs {
+  display: flex;
+  padding-bottom: 49px;
+}
+
+.work-li:not(:last-child) {
+  margin-right: 86px;
+}
+
+.tabs_btn {
+  color: #333333;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;  
+  border: none;
+  background-color: #ffff;
+  cursor: pointer;
+  padding: 0;
+}
+.tabs_btn:hover {
+  color: #ff9900;
+}
+
+.work-consultation-blok {
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 49% 100%;
+}
+
+.work-consultation-blok:after {
+   content: '';
+}
+
+.work-img1 {
+   background-image: url(../img/Rectangle18.jpg);
+}
+
+.work-img2 {
+   background-image: url(../img/Rectangle1.jpg);
+}
+
+.work-img3 {
+  background-image: url(../img/Rectangle19.jpg);
+}
+
+.work-img4 {
+  background-image: url(../img/Rectangle20.jpg);
+}
+
+.work-consultation-info {
+  width: 49%;
+}
+
+.consultation-info_h3 {
+  padding-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.consultation-info_p {
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 32px;
+  width: 88%;
+}
+
+.consultation-info_link {
+  display: flex;
+}
+
+.consultation-info_details {
+  width: 176px;
+  height: 60px;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.consultation-info_contract {
+  width: 147px;
+  height: 60px;
+  background-color:#ffff;
+  color: #333333;
+  font-weight: 400;
+  border-color: black;
+  border: 1px solid;
+  padding: 0;
+}
+
+
+.consultation-info_contract:hover {
+  background-color: #666666;
+  color: #f6f6f6;
+}
+
+.consultation-info_contract:active {
+  background-color: #000000;
+  color: #f6f6f6;
+}
+
+@media (max-width: 1360px) {
+  .work-h2 {
+    margin-bottom: 53px;
+  } 
+
+  .work-consultation-info {
+    width: 47%;
+  }
+
+  .work-consultation {
+    height: auto;
+  }
+
+  .tabs {
+    padding-bottom: 52px;
+  }
+
+  .work-li:not(:last-child) {
+    margin-right: 85px;
+  }
+
+  .consultation-info_h3 {
+    padding-bottom: 11px;
+  }
+
+  .consultation-info_p {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .consultation-info_details {
+    margin-right: 31px;
+    width: 175px;
+  }
+
+}
+
+@media (max-width: 968px) {
+
+  .work-consultation-blok {
+    justify-content: flex-end;
+    background-position: top;
+    background-size: 668px 284px;
+  } 
+
+  .tabs {
+    padding-bottom: 49px;
+  }
+
+  .work-li:not(:last-child) {
+    margin-right: 155px;
+  }
+
+  .work-consultation-info {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .consultation-info_h3 {
+    padding-top: 324px;
+    font-size: 24px;
+  }
+
+  .consultation-info_p {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .work-li:not(:last-child) {
+    margin-right: 140px;
+  }
+}
+
+@media (max-width: 585px) {
+  .work-li:not(:last-child) {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 493px) {
+  .work-li:not(:last-child) {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 360px) {
+  .work {
+    padding-top: 28px;
+  }
+
+  .work-h2 {
+    font-size: 24px;
+    margin-bottom: 7px;
+  }
+
+  .tabs_btn {
+    font-size: 14px;
+  }
+
+  .work-li:not(:last-child) {
+    margin-right: 44px;
+  } 
+
+  .tabs {
+    padding-bottom: 13px;
+  }
+
+  .work-consultation-blok {
+    background-size: 290px 160px;
+  } 
+
+  .consultation-info_h3 {
+    padding-top: 176px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 9px;
+  }
+
+  .consultation-info_p {
+   font-size: 14px;
+   line-height: 28px;
+   padding-bottom: 15px;
+  }
+
+  .consultation-info_details {
+    width: 162px;
+    height: 40px;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .consultation-info_contract {
+    width: 118px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
